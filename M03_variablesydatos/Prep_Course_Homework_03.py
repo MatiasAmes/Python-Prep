@@ -8,13 +8,14 @@
 # In[7]:
 
 
-
+a = 1683
+print(a)
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
 
-
+type(8.5)
 
 
 
@@ -22,7 +23,7 @@
 
 # In[8]:
 
-
+type(a)
 
 
 
@@ -30,22 +31,21 @@
 
 # In[2]:
 
-
+mi_nombre = "Matias Ames"
+print(mi_nombre)
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
-
-
-
+numero_complejo = 5698j
 
 
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
 # In[4]:
 
-
+type(numero_complejo)
 
 
 
@@ -61,14 +61,15 @@ pi = 3.1416
 
 # In[3]:
 
-
+variable1= 'True'
+variable2= True
 
 
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
-
+type(variable1, variable2)
 
 
 
@@ -77,7 +78,8 @@ pi = 3.1416
 
 # In[1]:
 
-
+a=47 + 0.58
+print(a)
 
 
 
@@ -85,7 +87,9 @@ pi = 3.1416
 
 # In[2]:
 
-
+a= 57j
+b= 475j
+print(a + b)
 
 
 
@@ -93,7 +97,9 @@ pi = 3.1416
 
 # In[4]:
 
-
+a = 45
+b = 4 + 65j
+print(a + b)
 
 
 
@@ -101,14 +107,17 @@ pi = 3.1416
 
 # In[5]:
 
-
+a= 4
+b= 6
+print( a * b)
 
 
 
 # 14) Mostrar el resultado de elevar 2 a la octava potencia
 
 # In[6]:
-
+a= 2
+print( a**8)
 
 
 
@@ -116,6 +125,9 @@ pi = 3.1416
 
 # In[8]:
 
+a= 27
+b= 4
+print(a / 7)
 
 
 
@@ -123,7 +135,9 @@ pi = 3.1416
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
-
+a= 27
+b= 4
+print(a // 4)
 
 
 
@@ -132,15 +146,17 @@ pi = 3.1416
 
 # In[1]:
 
-
+a=27
+b=4
+print(a % b)
 
 
 
 # 18) Utilizando como operandos el número 4 y los resultados obtenidos en los puntos 16 y 17. Obtener 27 como resultado
 
 # In[2]:
-
-
+# 
+6 * 4 + 3
 
 
 
@@ -148,7 +164,9 @@ pi = 3.1416
 
 # In[3]:
 
-
+a= 'Matias '
+b= 'Ames'
+print(a + b)
 
 
 
@@ -156,7 +174,7 @@ pi = 3.1416
 
 # In[4]:
 
-
+2 == '2'
 
 
 
@@ -164,7 +182,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+2 == int('2')
 
 
 
@@ -172,7 +190,10 @@ pi = 3.1416
 
 # In[12]:
 
+a = float('3,8')
 
+
+##El error es que esta mal expresado debería ser "3.8"
 
 
 
@@ -180,7 +201,9 @@ pi = 3.1416
 
 # In[15]:
 
-
+a= 3
+a -= 1
+print(a)
 
 
 
@@ -188,22 +211,26 @@ pi = 3.1416
 
 # In[29]:
 
+1 << 2
 
-
-
+#porque se corre la coma del número binario
 
 # 25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
 
 # In[23]:
 
+a=2
+b='2'
+print(a + b)
 
-
-
+#EL ERROR CORRESPONDE A DIFERENTES FORMATOS.
 
 
 # 26) Realizar una operación válida entre valores de tipo entero y string
 
 # In[30]:
 
-
+VAR1= 'Prep Course SoyHenry'
+VAR2= 5
+print(VAR1 * 3 + str(VAR2) + ' Es lo más')
 
